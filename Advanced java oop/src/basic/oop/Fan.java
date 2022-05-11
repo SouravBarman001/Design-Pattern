@@ -17,6 +17,18 @@ public class Fan {
         this.color = color;
     }
 
+    public void switchOn(){
+        this.isOn = true;
+        setSpeed((byte) 2);
+    }
+    public void switchOff(){
+        this.isOn = false;
+        setSpeed((byte) 0);
+    }
+
+    public void setSpeed(byte speed){
+        this.speed = speed;
+    }
     public String toString(){
        return String.format("make - %s, radius - %f, color - %s, speed - %d,isOn - %b",make,radius,color,speed,isOn);
     }
