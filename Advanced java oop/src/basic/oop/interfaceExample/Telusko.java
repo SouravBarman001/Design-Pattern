@@ -18,22 +18,22 @@ interface ABC{
     public void show();
 }
 
-//class ABCImp implements ABC{
-//
-//
-//    @Override
-//    public void show() {
-//        System.out.println("in show");
-//    }
-//}
+class ABCImp implements ABC{
+
+
+    @Override
+    public void show() {
+        System.out.println("in show");
+    }
+}
 
 public class Telusko {
     public static void main(String[] args) {
-//      ABC obj = new ABCImp();
+      ABC obj = new ABCImp();
 //      obj.show();
-        ABC obj = ()->{
-            System.out.println("in show");
-        };
+//        ABC obj = ()->{
+//            System.out.println("in show");
+//        };
         obj.show();
     }
 }
