@@ -5,8 +5,8 @@ public class CustomerRunner {
         Address homeAddress  = new Address("Line-1","Joypurhat","5900");
         Customer customer = new Customer("Sourav",homeAddress);
 
-        Address workAddress = new Address("Line-1 for work","Bogura","6000");
-        customer.setWorkAddress(workAddress);
+//        Address workAddress = new Address("Line-1 for work","Bogura","6000");
+//        customer.setWorkAddress(workAddress);
 
         System.out.println(customer);
 
