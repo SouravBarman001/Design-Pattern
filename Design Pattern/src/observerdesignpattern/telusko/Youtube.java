@@ -21,7 +21,7 @@ public class Youtube {
         s1.subscribeChannel(telusko);
         s2.subscribeChannel(telusko);
         s3.subscribeChannel(telusko);
-        //s4.subscribeChannel(telusko);
+        s4.subscribeChannel(telusko);
 
 
         telusko.upload("how to learn programming");
