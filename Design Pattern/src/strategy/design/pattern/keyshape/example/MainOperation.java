@@ -8,8 +8,10 @@ public class MainOperation {
         context.keyShape("BenjoShape");
 
 
+
         context.setLockSystem(new PadLock());
         context.keyShape("PadShape");
+
 
     }
 }
