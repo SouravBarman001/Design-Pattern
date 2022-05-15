@@ -1,0 +1,5 @@
+package strategy.design.pattern.burger.example;
+
+interface BurgerInterface {
+    public void changePedi(String burgerName);
+}
