@@ -19,6 +19,18 @@ public class Main {
 
         originator.restore(careTaker.undo());
         printState(originator);
+        originator.restore(careTaker.undo());
+        printState(originator);
+
+        originator.restore(careTaker.redo());
+        printState(originator);
+        originator.restore(careTaker.redo());
+        printState(originator);
+        originator.restore(careTaker.redo());
+        printState(originator);
+        System.out.println(careTaker.getMemento(1));
+
+
 //        originator.restore(careTaker.redo());
 //        printState(originator);
     }

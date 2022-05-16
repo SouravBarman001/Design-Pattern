@@ -19,13 +19,14 @@ public class CareTaker {
     public Memento getMemento(int index){
         return history.get(index);
     }
+
     public Memento undo(){
         System.out.println("Undoing state...");
         if(currState <= 0){
             currState = 0;
             return getMemento(0);
         }
-        currState--;
+        currState --;
         return getMemento(currState);
 
     }

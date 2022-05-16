@@ -13,6 +13,7 @@ public class Originator {
     public String getArticle(){
         return this.article;
     }
+
     public Memento save(){
         return new Memento(article);
     }
