@@ -11,7 +11,8 @@ public class Memento {
         return this.state;
     }
 
-    public void setState(String state){
-        this.state =state;
-    }
+//    public void setState(String state){
+//        this.state =state;
+//    }
+//
 }

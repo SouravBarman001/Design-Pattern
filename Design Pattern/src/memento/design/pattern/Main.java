@@ -28,7 +28,6 @@ public class Main {
         printState(originator);
         originator.restore(careTaker.redo());
         printState(originator);
-        System.out.println(careTaker.getMemento(1));
 
 
 //        originator.restore(careTaker.redo());

@@ -14,4 +14,5 @@ public class Memento {
     public void setState(String state){
         this.state =state;
     }
+
 }
