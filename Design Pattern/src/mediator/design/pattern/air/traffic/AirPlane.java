@@ -1,6 +1,6 @@
 package mediator.design.pattern.air.traffic;
 
-
+//Concrete Mediator
 public class AirPlane implements Command
 {
     private String id;
