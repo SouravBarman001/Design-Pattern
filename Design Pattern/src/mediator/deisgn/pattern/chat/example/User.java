@@ -1,6 +1,6 @@
 package mediator.deisgn.pattern.chat.example;
 
-//colleague
+//Colleague Class
 public abstract class User {
 
     private IChatRoom mediator;

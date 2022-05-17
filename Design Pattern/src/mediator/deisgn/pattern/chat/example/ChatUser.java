@@ -1,5 +1,7 @@
 package mediator.deisgn.pattern.chat.example;
 
+
+//Concrete Colleagues
 public class ChatUser extends User{
     public ChatUser(IChatRoom room,String id,String name){
         super(room, id, name);
