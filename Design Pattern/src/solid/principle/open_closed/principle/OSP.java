@@ -46,7 +46,7 @@ class DscComparator implements ValueComparator{
 public class OSP {
     public static void main(String[] args) {
           int arr[] = {1,5,4,2,3};
-          ArrayUtil.sort(arr, new AscComparator()); // here we can define the class
+          ArrayUtil.sort(arr, new DscComparator()); // here we can define the class
 
         System.out.println("Values int the array are sorted");
         for (int element : arr){
