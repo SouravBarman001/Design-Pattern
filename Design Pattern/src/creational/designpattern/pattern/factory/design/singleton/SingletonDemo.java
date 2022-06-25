@@ -2,22 +2,28 @@ package creational.designpattern.pattern.factory.design.singleton;
 
 public class SingletonDemo {
     public static void main(String[] args) {
-        ABC obj = ABC.getInstance();
-        ABC obj1 = ABC.getInstance();
+        ProsantoAccount accountProsanto = ProsantoAccount.getInstance(10);
+   //   ProsantoAccount accountProsanto2 = ProsantoAccount.getInstance(10);
 
+        //ABC prosanto = ABC.getInstance(20);
     }
 }
-
- class ABC{
-    public static ABC obj;
+ class ProsantoAccount{
+    public static ProsantoAccount obj;
     int i;
-    private ABC(){
+    private ProsantoAccount(int a){
+
+        // database logic
+        int money = 90;
+        int result = money + a; // 90 - 20 = 70
+
         System.out.println("Instance Created");
+        System.out.println(result);
     }
-    public static ABC getInstance(){
+    public static ProsantoAccount getInstance(int a){
 
         if (obj == null){
-            obj = new ABC();
+            obj = new ProsantoAccount(a);
         }
        return obj;
 

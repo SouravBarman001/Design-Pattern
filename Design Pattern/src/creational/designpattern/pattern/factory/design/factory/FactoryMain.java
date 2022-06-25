@@ -7,7 +7,7 @@ public class FactoryMain {
         // factory returns the instance of the class
 
         OperatingSystemFactory operatingSystemFactory = new OperatingSystemFactory();
-        OS obj = operatingSystemFactory.getInstance("closed");
+        OS obj = operatingSystemFactory.getInstance("open");
         obj.spec();
     }
 }

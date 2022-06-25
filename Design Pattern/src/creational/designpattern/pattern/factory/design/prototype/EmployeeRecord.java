@@ -29,11 +29,7 @@ public class EmployeeRecord implements Prototype{
         System.out.println(id+"\t"+name+"\t"+designation+"\t"+salary+"\t"+address);
     }
 
-    @Override
-    public Prototype getClone() {
 
-        return new EmployeeRecord(id,name,designation,salary,address);
-    }
 
     public void setId(int id) {
         this.id = id;
@@ -53,5 +49,12 @@ public class EmployeeRecord implements Prototype{
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+
+    @Override
+    public Prototype getClone() {
+
+        return new EmployeeRecord(id,name,designation,salary,address);
     }
 }
