@@ -1,10 +1,6 @@
 package creational.designpattern.pattern.factory.design.abstractfactory;
 
-public class AbstractFactory {
-    public BuildingFactory getBuilding(String building){
-        if (building !=null){
-
-        }
-        return null;
+public abstract class AbstractFactory {
+    abstract Building getBuilding(String buildingType);
+    abstract PaintCompany getPaintCompany(String paintType);
     }
-}
