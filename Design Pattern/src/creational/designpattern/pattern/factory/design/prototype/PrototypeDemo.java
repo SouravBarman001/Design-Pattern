@@ -1,8 +1,4 @@
 package creational.designpattern.pattern.factory.design.prototype;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class PrototypeDemo {
     public static void main(String[] args){
         EmployeeRecord e1=new EmployeeRecord();
