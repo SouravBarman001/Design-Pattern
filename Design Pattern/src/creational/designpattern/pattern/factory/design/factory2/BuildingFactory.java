@@ -4,13 +4,13 @@ public class BuildingFactory {
     public Building getBuilding(String building1) {
         if (building1 != null){
             if ("home".equalsIgnoreCase(building1)){
-                return new Home();
+                return new Printer();
             }
             if ("house".equalsIgnoreCase(building1)){
-                return new House();
+                return new Keyboard();
             }
             if ("hut".equalsIgnoreCase(building1)){
-                return new Hut();
+                return new Mouse();
             }
         }
         return null;
