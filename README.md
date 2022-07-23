@@ -17,3 +17,9 @@ Intent of the pattern briefly describes both the problem and the solution.
 Motivation further explains the problem and the solution the pattern makes possible.
 Structure of classes shows each part of the pattern and how they are related.
 Code example in one of the popular programming languages makes it easier to grasp the idea behind the pattern.
+
+# The Catalog of Design Patterns
+
+## 1. Creational patterns
+## 2. Structural patterns
+## 3. Behavioral patterns
