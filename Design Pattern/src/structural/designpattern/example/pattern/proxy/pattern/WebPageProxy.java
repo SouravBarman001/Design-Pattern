@@ -8,11 +8,11 @@ public WebPageProxy(){
 }
 
     @Override
-    public void renderPage(String url) throws Exception {
-     if (url.equalsIgnoreCase("www.youtube.com")){
+    public void renderPage(String url,int age) throws Exception {
+     if (age < 18){
         throw new Exception(url + "is blocked by ISP");
      }else {
-         webPage.renderPage(url);
+         webPage.renderPage(url,age);
      }
     }
 }

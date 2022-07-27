@@ -2,9 +2,9 @@ package structural.designpattern.example.pattern.adapter;
 
 public class MainMethod {
     public static void main(String[] args) {
-        Type_B obj = new Type_B();
-        ChargerPin chargerPin = new AdapterPin();
+        Type_C obj = new Type_C();
+        ChargerPin chargerPin = new OTGAdapterPin();
         obj.setChargerPin(chargerPin);
-        obj.sendMsg("otg","Phone is conneted to ");
+        obj.sendMsg("pendrive","Phone is conneted to ");
     }
 }

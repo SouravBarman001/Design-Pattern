@@ -6,7 +6,7 @@ public class Main {
         Pizza vegPizza = new VegPizza();
         Pizza nonVegPizza = new NonVegPizza();
         SubstanceDecorator cheesePizza = new CheeseDecorator(new VegPizza());
-        SubstanceDecorator chickenPizza = new ChickenDecorator(new VegPizza());
+        SubstanceDecorator chickenPizza = new ChickenDecorator(new NonVegPizza());
         System.out.println("Normal Veg Pizza");
         System.out.println("size: " + vegPizza.size());
         System.out.println("ingredients: " + vegPizza.ingredient());

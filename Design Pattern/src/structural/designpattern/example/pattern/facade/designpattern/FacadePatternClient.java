@@ -84,7 +84,7 @@ class ShopKeeper{
 public class FacadePatternClient {
     public static void main(String[] args) {
 
-        int option;
+            int option;
 
             System.out.println("1. Iphone");
             System.out.println("2. Samsung");
