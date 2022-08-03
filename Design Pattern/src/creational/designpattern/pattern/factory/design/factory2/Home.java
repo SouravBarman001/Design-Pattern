@@ -1,8 +1,8 @@
 package creational.designpattern.pattern.factory.design.factory2;
 
-public class Keyboard implements Building{
+public class Home implements Building{
     @Override
     public void build() {
-        System.out.println("Make a House");
+        System.out.println("Make a Home");
     }
 }

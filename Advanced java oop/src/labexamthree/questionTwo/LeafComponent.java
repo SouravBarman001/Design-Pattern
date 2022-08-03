@@ -5,7 +5,7 @@ public class LeafComponent implements Component{
    private String name;
 
     public LeafComponent(int price, String name) {
-        super();
+       // super();
         this.price = price;
         this.name = name;
     }

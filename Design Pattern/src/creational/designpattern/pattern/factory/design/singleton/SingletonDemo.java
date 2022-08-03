@@ -2,8 +2,8 @@ package creational.designpattern.pattern.factory.design.singleton;
 
 public class SingletonDemo {
     public static void main(String[] args) {
-        ProsantoAccount accountProsanto = ProsantoAccount.getInstance(10);
-   //   ProsantoAccount accountProsanto2 = ProsantoAccount.getInstance(10);
+       ProsantoAccount accountProsanto = ProsantoAccount.getInstance(10);
+       ProsantoAccount accountProsanto2 = ProsantoAccount.getInstance(20);
 
         //ABC prosanto = ABC.getInstance(20);
     }

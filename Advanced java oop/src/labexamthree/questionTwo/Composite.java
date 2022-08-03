@@ -9,7 +9,7 @@ public class Composite implements Component{
     List<Component> components = new ArrayList<>();
 
     public Composite(String name) {
-        super();
+      //  super();
         this.name = name;
     }
 
